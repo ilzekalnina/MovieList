@@ -68,7 +68,6 @@
 				778931E52500320A00E8D7D2 /* View */,
 				778931E62500322600E8D7D2 /* Controller */,
 				778931D52500114D00E8D7D2 /* Assets.xcassets */,
-				778931D72500114D00E8D7D2 /* LaunchScreen.storyboard */,
 				778931DA2500114D00E8D7D2 /* Info.plist */,
 			);
 			path = MovieList;
@@ -86,6 +85,7 @@
 		778931E52500320A00E8D7D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				778931D72500114D00E8D7D2 /* LaunchScreen.storyboard */,
 				778931D22500114B00E8D7D2 /* Main.storyboard */,
 			);
 			path = View;
