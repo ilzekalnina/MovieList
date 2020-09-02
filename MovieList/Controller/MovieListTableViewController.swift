@@ -91,9 +91,11 @@ class MovieListTableViewController: UITableViewController {
 
     
     // Override to support rearranging the table view.
-//    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-//
-//    }
+    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+        let currentMovie = movies.remove(at: fromIndexPath.row)
+        movies.insert(currentMovie, at: to.row)
+
+    }
     
     
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
